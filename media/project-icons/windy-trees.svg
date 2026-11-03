@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Wind flowing through a tree</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 42c-1-10 2-18 8-25m-7 17-8-8m11 0 10-5" stroke="#a18464" stroke-width="2.4"/>
+    <path d="M18 27c-6-1-7-7-3-10-2-5 4-9 8-7 3-5 10-4 11 1 7-1 10 6 6 10 1 5-6 9-11 5" fill="#588e7318" stroke="#588e73" stroke-width="2.4"/>
+    <path d="M3 9h8c5 0 5-6 1-6M2 18h8m-6 8h8M3 35h11c6 0 6 6 2 6" stroke="#77a9b4" stroke-width="2.1"/>
+    <path d="M17 43h20" stroke="#9eac68" stroke-width="1.8"/>
+  </g>
+</svg>

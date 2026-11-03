@@ -1,0 +1,29 @@
+{
+  "title": "Windy Trees: Computing Stress Response for Developmental Tree Models",
+  "authors": [
+    "Sören Pirk",
+    "Till Niese",
+    "Torsten Hädrich",
+    "Bedrich Benes",
+    "Oliver Deussen"
+  ],
+  "year": 2014,
+  "journal": "ACM Transactions on Graphics",
+  "volume": 33,
+  "issue": 6,
+  "article": 204,
+  "doi": "10.1145/2661229.2661252",
+  "project": "https://storage.googleapis.com/pirk.io/projects/windy_trees/index.html",
+  "paper": "https://storage.googleapis.com/pirk.io/papers/Pirk.etal-2014-WindyTrees.pdf",
+  "geometry": "Procedural mature trees generated with the packaged rhizomorph module; 180 development steps.",
+  "implementation": "NVIDIA Warp SPH air and articulated tree dynamics; Blender Cycles rendering.",
+  "official_video": "https://www.youtube.com/watch?v=o6EKTlEV44E",
+  "visual_reference_times_seconds": [
+    15,
+    135
+  ],
+  "shared_modules": [
+    "rhizomorph",
+    "ice_melting"
+  ]
+}

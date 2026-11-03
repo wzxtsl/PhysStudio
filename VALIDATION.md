@@ -19,9 +19,10 @@ listed in [INSTALL.md](INSTALL.md).
 | Ice Melting | Heat and latent energy, rigid ice, liquid density, wetting kernels; all three simulation/render pipelines |
 | Fire suppression | Reaction and water-energy balance, gas/solid boundaries, wood conduction, carbonization; all three pipelines and frozen-state rendering |
 | Rhizomorph | All three growth/render pipelines; soil conservation, nutrient tropism, root/rock clearance, allocation, and frozen-state rendering |
-| Launcher | All 48 presets; existing 45 command plans unchanged |
+| Windy Trees | All three growth/wind/render pipelines; implicit mechanics, damping, air feedback, dense paths, and frozen-state rendering |
+| Launcher | All 51 presets; existing 48 command plans unchanged |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 49 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Media | All 52 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
 | Package | Wheel includes all method modules, reference attribution, and Plant Wilting, Ice Melting, and Fire-X GS runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
@@ -129,3 +130,16 @@ field. Three frozen frames reproduce the development images within one 8-bit
 channel level at 960 x 1080. The released MP4s match the accepted 240-frame
 originals, every GIF frame decodes, and the wheel includes the modules, run guide,
 method notes, reference metadata, and attribution.
+
+Windy Trees preserves seven core solver, scene, asset, simulation, flow and
+rendering modules after import/root-path normalization. All three presets
+completed 180-step source growth and two-frame wind/render/encode pipelines
+through the shared launcher at the normal 15,732-air-particle resolution.
+Independent matrix-free/dense mechanics and analytic damped-oscillator checks
+pass, as do fixed-root, segment-length, tree/air force balance, recorded-flow
+endpoints, and matched crown-feedback checks. Regenerated trees retain the
+showcase topology; small floating-point differences remain in the GPU states.
+Nine frozen frames reproduce the development renders within one 8-bit channel
+level at 1280 x 720. The three 301-frame showcase MP4s match the accepted files,
+all GIF frames decode, and the wheel includes the modules, dense recording
+preset, run guide, method/flow notes, references and shared rendering helpers.

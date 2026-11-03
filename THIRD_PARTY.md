@@ -1,4 +1,21 @@
-# Credits
+# Credits and third-party licenses
+
+Original PhysStudio code is licensed under [Apache 2.0](LICENSE); see [NOTICE](NOTICE).
+Third-party components and their derived code retain their upstream licenses
+and copyright notices. External assets and official showcase media retain
+their upstream terms and are not relicensed by PhysStudio's code license.
+
+The Python distribution records Apache-2.0, MIT, BSD-2-Clause, and BSD-3-Clause
+in its license expression to account for the original code and bundled
+third-party components. The retained notices are listed below.
+
+| Component | Use in PhysStudio | Retained license |
+| :--- | :--- | :--- |
+| LBM-MPM-Air-Water-Sand | Water + Sand constitutive and coupling routines | [MIT](water_sand/LICENSE.reference) |
+| plant-water-diffusion | Plant Wilting water-transport reference | [MIT](plant_wilting/LICENSE.reference) |
+| FieryGS | Fire-X GS CIE matching table | [Apache 2.0](firex_gs/LICENSE.reference) |
+| PlenOctree spherical harmonics | Fire-X GS SH evaluator | [BSD 2-Clause notice in source](firex_gs/reference_sh.py) |
+| Rhizomorph | Tree & Root Growth reference, reused by Windy Trees | [BSD 3-Clause](rhizomorph/LICENSE.reference) |
 
 PhysStudio contains physics-based implementations and demo workflows inspired
 by the papers linked in each method's README.
@@ -85,3 +102,14 @@ provides reference growth and soil-transport logic. The Warp kernels and Python
 graph implementation are developed here; Blender supplies Cycles rendering.
 [Pinned reference](rhizomorph/references/sources.json) ·
 [Reference BSD-3-Clause license](rhizomorph/LICENSE.reference).
+
+Windy Trees follows the short-term wind/tree interaction in
+[Windy Trees: Computing Stress Response for Developmental Tree Models](https://doi.org/10.1145/2661229.2661252)
+by Sören Pirk, Till Niese, Torsten Hädrich, Bedrich Benes, and Oliver Deussen.
+The Warp articulated solver, SPH coupling, and leaf hinges are implemented here.
+Procedural trees reuse Rhizomorph; Blender rendering reuses the packaged
+Rhizomorph and Ice Melting helpers. Rhizomorph's
+[reference attribution](rhizomorph/LICENSE.reference) remains included.
+The [official video](https://www.youtube.com/watch?v=o6EKTlEV44E) provides the
+visual reference for neutral airflow filaments; the three showcase videos are
+rendered from PhysStudio simulations. [Sources](windy_trees/references/sources.json).

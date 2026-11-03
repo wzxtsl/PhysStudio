@@ -155,3 +155,17 @@ See [Tree & Root Growth](rhizomorph/README.md) for Maple, Birch, resource contro
 replay. All geometry is procedural. `--frames` controls video sampling over the
 full development trajectory; the method harness exposes `--steps` for shorter
 simulations.
+
+Windy Trees uses the shared Warp 1.6.2 environment, Blender 4.2.9 with
+Cycles/OptiX, and FFmpeg:
+
+```bash
+export BLENDER=/path/to/blender
+python -m physstudio run windy_trees oak_taproot --gpu 0
+```
+
+The pipeline generates a complete Rhizomorph tree before simulating wind. No
+asset download or additional Python dependencies are needed. `--frames` shortens
+the wind trajectory at the normal time step, with at least two frames; the tree
+still completes 180 development steps. See [Windy Trees](windy_trees/README.md)
+for the three scenes, numerical checks, and frozen-state replay.

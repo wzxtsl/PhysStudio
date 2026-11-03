@@ -9,11 +9,11 @@
 ![3DGS](https://img.shields.io/badge/3D-Gaussian_Splatting-a78bfa?style=flat-square)
 ![Vibe Coding](https://img.shields.io/badge/Made_with-Vibe_Coding-22d3ee?style=flat-square)
 
-[RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
-[SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
-[LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting)<br>
-[StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting)<br>
-[Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid) · [Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph)
+[ThunderGS](#thundergs) · [StormGS](#stormgs) · [LavaGS](#lavags) · [SnowyGS](#snowygs) · [RainyGS](#rainygs)<br>
+[DiffWind](#diffwind) · [Plant Wilting](#plant-wilting) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
+[Gaussian Splashing](#gaussian-splashing) · [Water + Sand](#water-sand) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
+[Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid)<br>
+[Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph) · [Windy Trees](#windy-trees)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -24,6 +24,70 @@
 A growing collection of physics-based animation projects, from solvers to
 rendered demos. Explore the code and run guides, or click an animated preview
 to watch the full video.
+
+<a id="thundergs"></a>
+
+## <img src="media/project-icons/thundergs.svg" width="32" height="32" align="absmiddle" alt=""> ThunderGS
+
+[Thunderstruck: Visually Simulating Electrical Storms](https://jonathank.de/research/paper/Herrera2025_thunderstruck.pdf) brings electric-field-driven lightning branches, ground attachment, and flash illumination to Gaussian scenes.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/firewoods.mp4"><img src="media/thunder_gs/firewoods.gif" width="360" alt="Firewoods lightning demo"></a><br><b>Firewoods</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/zohar.mp4"><img src="media/thunder_gs/zohar.gif" width="360" alt="Zohar lightning demo"></a><br><b>Zohar</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/train.mp4"><img src="media/thunder_gs/train.gif" width="360" alt="Train lightning demo"></a><br><b>Train</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](thunder_gs/README.md)
+
+<a id="stormgs"></a>
+
+## <img src="media/project-icons/stormgs.svg" width="32" height="32" align="absmiddle" alt=""> StormGS
+
+[Cyclogenesis: Simulating Hurricanes and Tornadoes](https://computationalsciences.org/publications/amador-herrera-2024-cyclogenesis.html) brings rotating clouds, rain, sea spray, and terrain-driven dust to Gaussian scenes.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/storm_gs/playground.mp4"><img src="media/storm_gs/playground.gif" width="360" alt="Playground tornado demo"></a><br><b>Playground</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/storm_gs/lands_end.mp4"><img src="media/storm_gs/lands_end.gif" width="360" alt="Land's End waterspout demo"></a><br><b>Land's End</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/storm_gs/calico.mp4"><img src="media/storm_gs/calico.gif" width="360" alt="Calico dust devil demo"></a><br><b>Calico</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](storm_gs/README.md)
+
+<a id="lavags"></a>
+
+## <img src="media/project-icons/lavags.svg" width="32" height="32" align="absmiddle" alt=""> LavaGS
+
+LavaGS combines [Augmented MPM for Phase-Change and Varied Materials](https://www.cs.ucr.edu/~craigs/papers/2014-melting/paper.pdf) with Gaussian scenes for lava flow, crust formation, rock contact, and thermal emission.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/lava_gs/zohar.mp4"><img src="media/lava_gs/zohar.gif" width="360" alt="Zohar canyon demo"></a><br><b>Zohar canyon</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/lava_gs/lands_end.mp4"><img src="media/lava_gs/lands_end.gif" width="360" alt="Land's End cliff demo"></a><br><b>Land's End cliff</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/lava_gs/calico.mp4"><img src="media/lava_gs/calico.gif" width="360" alt="Calico demo"></a><br><b>Calico</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](lava_gs/README.md)
+
+<a id="snowygs"></a>
+
+## <img src="media/project-icons/snowygs.svg" width="32" height="32" align="absmiddle" alt=""> SnowyGS
+
+SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.stomakhin.com/research/snow.html) with Gaussian scenes for wind-driven snowfall and accumulated snow.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="media/snowy_gs/playground.mp4"><img src="media/snowy_gs/playground.gif" width="360" alt="Playground moving-camera demo"></a><br><b>Playground</b></td>
+    <td align="center" width="33%"><a href="media/snowy_gs/firewoods.mp4"><img src="media/snowy_gs/firewoods.gif" width="360" alt="Firewoods moving-camera demo"></a><br><b>Firewoods</b></td>
+    <td align="center" width="33%"><a href="media/snowy_gs/train.mp4"><img src="media/snowy_gs/train.gif" width="360" alt="Train moving-camera demo"></a><br><b>Train</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](snowy_gs/README.md)
 
 <a id="rainygs"></a>
 
@@ -41,6 +105,68 @@ to watch the full video.
 
 [**Code & run guide →**](rainy_gs/README.md)
 
+<a id="diffwind"></a>
+
+## <img src="media/project-icons/diffwind.svg" width="32" height="32" align="absmiddle" alt=""> DiffWind
+
+[DiffWind](https://github.com/zju3dv/DiffWind) models wind-driven Gaussian object dynamics through differentiable fluid-solid coupling with LBM and MPM.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/potted_plant_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/potted_plant_view0.gif" width="360" alt="DiffWind Potted Plant demo"></a><br><b>Potted Plant</b></td>
+    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/sweater_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/sweater_view0.gif" width="360" alt="DiffWind Sweater demo"></a><br><b>Sweater</b></td>
+    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/flag_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/flag_view0.gif" width="360" alt="DiffWind Flag demo"></a><br><b>Flag</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](https://github.com/zju3dv/DiffWind)
+
+<a id="plant-wilting"></a>
+
+## <img src="media/project-icons/plant-wilting.svg" width="32" height="32" align="absmiddle" alt=""> Plant Wilting
+
+[A Physically-inspired Approach to the Simulation of Plant Wilting](https://dl.acm.org/doi/10.1145/3610548.3618218) couples water transport and material softening to animate drying plants, rendered here with 3D Gaussians.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/potted_plant.mp4"><img src="media/plant_wilting/potted_plant.gif" width="360" alt="Potted Plant wilting and water-content changes"></a><br><b>Potted Plant</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/ficus.mp4"><img src="media/plant_wilting/ficus.gif" width="360" alt="Ficus wilting and water-content changes"></a><br><b>Ficus</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/alocasia.mp4"><img src="media/plant_wilting/alocasia.gif" width="360" alt="Alocasia wilting and water-content changes"></a><br><b>Alocasia</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](plant_wilting/README.md)
+
+<a id="physskin"></a>
+
+## <img src="media/project-icons/physskin.svg" width="32" height="32" align="absmiddle" alt=""> PhysSkin
+
+[PhysSkin](https://github.com/zju3dv/PhysSkin) learns continuous neural skinning fields for real-time, generalizable physics-based animation across diverse 3D shapes.
+
+<p align="center">
+  <a href="https://huggingface.co/papers/2610.26067?image-viewer=B81F15613A4EABA144DFC55E0D95B4EA498EE910">
+    <img src="https://raw.githubusercontent.com/zju3dv/PhysSkin/main/assets/readme/preview.gif" alt="PhysSkin++ teaser: interactive physics-based animation" width="960">
+  </a>
+  <br>
+  <a href="https://huggingface.co/papers/2610.26067?image-viewer=B81F15613A4EABA144DFC55E0D95B4EA498EE910"><b>▶ Watch the PhysSkin++ teaser</b></a>
+</p>
+
+[**Code & run guide →**](https://github.com/zju3dv/PhysSkin)
+
+<a id="megas"></a>
+
+## <img src="media/project-icons/megas.svg" width="32" height="32" align="absmiddle" alt=""> MeGAS
+
+[MeGAS](https://zju3dv.github.io/MeGAS/) incorporates thermomechanical phase-change dynamics with temperature fields and thermomechanical phase transitions to Gaussian scenes for melting and solidification.
+
+
+<p align="center">
+  <b>Bidirectional Phase-Change Editing</b><br>
+  <img src="media/megas/bidirectional_phase.gif" width="960" alt="MeGAS Bidirectional Phase-Change Editing: looping official video">
+</p>
+
+[**Code & run guide →**](https://github.com/zju3dv/MeGAS)
+
 <a id="gaussian-splashing"></a>
 
 ## <img src="media/project-icons/gaussian-splashing.svg" width="32" height="32" align="absmiddle" alt=""> Gaussian Splashing
@@ -56,6 +182,22 @@ to watch the full video.
 </table>
 
 [**Code & run guide →**](gaussian_splashing/README.md)
+
+<a id="water-sand"></a>
+
+## <img src="media/project-icons/water-sand.svg" width="32" height="32" align="absmiddle" alt=""> Water + Sand
+
+Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mixtures](https://lwkobe.github.io/papers/XWYDL2026/) with Gaussian rendering for 3D sandcastle erosion, sedimentation, and dam overtopping.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/water_sand/breach.mp4"><img src="media/water_sand/breach.gif" width="360" alt="Sand dam overtopping demo"></a><br><b>Sand dam</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/water_sand/sediment.mp4"><img src="media/water_sand/sediment.gif" width="360" alt="Colored sand sedimentation demo"></a><br><b>Sedimentation</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/water_sand/castle.mp4"><img src="media/water_sand/castle.gif" width="360" alt="Sandcastle erosion demo"></a><br><b>Sandcastle</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](water_sand/README.md)
 
 <a id="enliveninggs"></a>
 
@@ -88,148 +230,6 @@ to watch the full video.
 </table>
 
 [**Code & run guide →**](magnetic_mpm/README.md)
-
-<a id="snowygs"></a>
-
-## <img src="media/project-icons/snowygs.svg" width="32" height="32" align="absmiddle" alt=""> SnowyGS
-
-SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.stomakhin.com/research/snow.html) with Gaussian scenes for wind-driven snowfall and accumulated snow.
-
-<table>
-  <tr>
-    <td align="center" width="33%"><a href="media/snowy_gs/playground.mp4"><img src="media/snowy_gs/playground.gif" width="360" alt="Playground moving-camera demo"></a><br><b>Playground</b></td>
-    <td align="center" width="33%"><a href="media/snowy_gs/firewoods.mp4"><img src="media/snowy_gs/firewoods.gif" width="360" alt="Firewoods moving-camera demo"></a><br><b>Firewoods</b></td>
-    <td align="center" width="33%"><a href="media/snowy_gs/train.mp4"><img src="media/snowy_gs/train.gif" width="360" alt="Train moving-camera demo"></a><br><b>Train</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](snowy_gs/README.md)
-
-<a id="diffwind"></a>
-
-## <img src="media/project-icons/diffwind.svg" width="32" height="32" align="absmiddle" alt=""> DiffWind
-
-[DiffWind](https://github.com/zju3dv/DiffWind) models wind-driven Gaussian object dynamics through differentiable fluid-solid coupling with LBM and MPM.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/potted_plant_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/potted_plant_view0.gif" width="360" alt="DiffWind Potted Plant demo"></a><br><b>Potted Plant</b></td>
-    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/sweater_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/sweater_view0.gif" width="360" alt="DiffWind Sweater demo"></a><br><b>Sweater</b></td>
-    <td align="center" valign="top" width="33%"><a href="https://github.com/zju3dv/DiffWind/blob/main/media/results/flag_view0.mp4"><img src="https://raw.githubusercontent.com/zju3dv/DiffWind/main/media/results/flag_view0.gif" width="360" alt="DiffWind Flag demo"></a><br><b>Flag</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](https://github.com/zju3dv/DiffWind)
-
-<a id="physskin"></a>
-
-## <img src="media/project-icons/physskin.svg" width="32" height="32" align="absmiddle" alt=""> PhysSkin
-
-[PhysSkin](https://github.com/zju3dv/PhysSkin) learns continuous neural skinning fields for real-time, generalizable physics-based animation across diverse 3D shapes.
-
-<p align="center">
-  <a href="https://huggingface.co/papers/2610.26067?image-viewer=B81F15613A4EABA144DFC55E0D95B4EA498EE910">
-    <img src="https://raw.githubusercontent.com/zju3dv/PhysSkin/main/assets/readme/preview.gif" alt="PhysSkin++ teaser: interactive physics-based animation" width="960">
-  </a>
-  <br>
-  <a href="https://huggingface.co/papers/2610.26067?image-viewer=B81F15613A4EABA144DFC55E0D95B4EA498EE910"><b>▶ Watch the PhysSkin++ teaser</b></a>
-</p>
-
-[**Code & run guide →**](https://github.com/zju3dv/PhysSkin)
-
-<a id="megas"></a>
-
-## <img src="media/project-icons/megas.svg" width="32" height="32" align="absmiddle" alt=""> MeGAS
-
-[MeGAS](https://zju3dv.github.io/MeGAS/) incorporates thermomechanical phase-change dynamics with temperature fields and thermomechanical phase transitions to Gaussian scenes for melting and solidification.
-
-
-<p align="center">
-  <b>Bidirectional Phase-Change Editing</b><br>
-  <img src="media/megas/bidirectional_phase.gif" width="960" alt="MeGAS Bidirectional Phase-Change Editing: looping official video">
-</p>
-
-[**Code & run guide →**](https://github.com/zju3dv/MeGAS)
-
-<a id="lavags"></a>
-
-## <img src="media/project-icons/lavags.svg" width="32" height="32" align="absmiddle" alt=""> LavaGS
-
-LavaGS combines [Augmented MPM for Phase-Change and Varied Materials](https://www.cs.ucr.edu/~craigs/papers/2014-melting/paper.pdf) with Gaussian scenes for lava flow, crust formation, rock contact, and thermal emission.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="media/lava_gs/zohar.mp4"><img src="media/lava_gs/zohar.gif" width="360" alt="Zohar canyon demo"></a><br><b>Zohar canyon</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/lava_gs/lands_end.mp4"><img src="media/lava_gs/lands_end.gif" width="360" alt="Land's End cliff demo"></a><br><b>Land's End cliff</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/lava_gs/calico.mp4"><img src="media/lava_gs/calico.gif" width="360" alt="Calico demo"></a><br><b>Calico</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](lava_gs/README.md)
-
-<a id="water-sand"></a>
-
-## <img src="media/project-icons/water-sand.svg" width="32" height="32" align="absmiddle" alt=""> Water + Sand
-
-Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mixtures](https://lwkobe.github.io/papers/XWYDL2026/) with Gaussian rendering for 3D sandcastle erosion, sedimentation, and dam overtopping.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="media/water_sand/breach.mp4"><img src="media/water_sand/breach.gif" width="360" alt="Sand dam overtopping demo"></a><br><b>Sand dam</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/water_sand/sediment.mp4"><img src="media/water_sand/sediment.gif" width="360" alt="Colored sand sedimentation demo"></a><br><b>Sedimentation</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/water_sand/castle.mp4"><img src="media/water_sand/castle.gif" width="360" alt="Sandcastle erosion demo"></a><br><b>Sandcastle</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](water_sand/README.md)
-
-<a id="plant-wilting"></a>
-
-## <img src="media/project-icons/plant-wilting.svg" width="32" height="32" align="absmiddle" alt=""> Plant Wilting
-
-[A Physically-inspired Approach to the Simulation of Plant Wilting](https://dl.acm.org/doi/10.1145/3610548.3618218) couples water transport and material softening to animate drying plants, rendered here with 3D Gaussians.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/potted_plant.mp4"><img src="media/plant_wilting/potted_plant.gif" width="360" alt="Potted Plant wilting and water-content changes"></a><br><b>Potted Plant</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/ficus.mp4"><img src="media/plant_wilting/ficus.gif" width="360" alt="Ficus wilting and water-content changes"></a><br><b>Ficus</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/plant_wilting/alocasia.mp4"><img src="media/plant_wilting/alocasia.gif" width="360" alt="Alocasia wilting and water-content changes"></a><br><b>Alocasia</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](plant_wilting/README.md)
-
-<a id="stormgs"></a>
-
-## <img src="media/project-icons/stormgs.svg" width="32" height="32" align="absmiddle" alt=""> StormGS
-
-[Cyclogenesis: Simulating Hurricanes and Tornadoes](https://computationalsciences.org/publications/amador-herrera-2024-cyclogenesis.html) brings rotating clouds, rain, sea spray, and terrain-driven dust to Gaussian scenes.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="media/storm_gs/playground.mp4"><img src="media/storm_gs/playground.gif" width="360" alt="Playground tornado demo"></a><br><b>Playground</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/storm_gs/lands_end.mp4"><img src="media/storm_gs/lands_end.gif" width="360" alt="Land's End waterspout demo"></a><br><b>Land's End</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/storm_gs/calico.mp4"><img src="media/storm_gs/calico.gif" width="360" alt="Calico dust devil demo"></a><br><b>Calico</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](storm_gs/README.md)
-
-<a id="thundergs"></a>
-
-## <img src="media/project-icons/thundergs.svg" width="32" height="32" align="absmiddle" alt=""> ThunderGS
-
-[Thunderstruck: Visually Simulating Electrical Storms](https://jonathank.de/research/paper/Herrera2025_thunderstruck.pdf) brings electric-field-driven lightning branches, ground attachment, and flash illumination to Gaussian scenes.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/firewoods.mp4"><img src="media/thunder_gs/firewoods.gif" width="360" alt="Firewoods lightning demo"></a><br><b>Firewoods</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/zohar.mp4"><img src="media/thunder_gs/zohar.gif" width="360" alt="Zohar lightning demo"></a><br><b>Zohar</b></td>
-    <td align="center" valign="top" width="33%"><a href="media/thunder_gs/train.mp4"><img src="media/thunder_gs/train.gif" width="360" alt="Train lightning demo"></a><br><b>Train</b></td>
-  </tr>
-</table>
-
-[**Code & run guide →**](thunder_gs/README.md)
 
 <a id="capillary-contact"></a>
 
@@ -327,6 +327,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](rhizomorph/README.md)
 
+<a id="windy-trees"></a>
+
+## <img src="media/project-icons/windy-trees.svg" width="32" height="32" align="absmiddle" alt=""> Windy Trees
+
+[Windy Trees: Computing Stress Response for Developmental Tree Models](https://storage.googleapis.com/pirk.io/projects/windy_trees/index.html) couples turbulent wind and elastic tree motion, with fine air-particle paths revealing the flow around each crown.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/windy_trees/oak_taproot.mp4"><img src="media/windy_trees/oak_taproot.gif" width="360" alt="Oak branches bending in passing gusts with visible wind trajectories"></a><br><b>Oak</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/windy_trees/maple_heart.mp4"><img src="media/windy_trees/maple_heart.gif" width="360" alt="Turning wind flowing around a dense maple crown"></a><br><b>Maple</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/windy_trees/birch_lateral.mp4"><img src="media/windy_trees/birch_lateral.gif" width="360" alt="Birch branches and leaves responding to turbulent wind"></a><br><b>Birch</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](windy_trees/README.md)
+
 ---
 
 ## Run a demo
@@ -347,22 +363,23 @@ Pretrained models are downloaded separately; [asset links](ASSETS.md) and
 <summary><b>Repository map</b></summary>
 
 ```text
+thunder_gs/           Electric discharge, grounded terrain, and flash lighting
+storm_gs/             Moist vortices, rain, sea spray, and transported dust
+lava_gs/              Thermoviscoplastic lava, rock contact, and thermal emission
+snowy_gs/             Elastoplastic snow, airborne flakes, and accumulation
 rainy_gs/             Rain, shallow water, ripples, and reflections
+plant_wilting/        Water transport, Newton rods, and Gaussian plant motion
 gaussian_splashing/   Position-based fluids and Gaussian liquid rendering
+water_sand/           Air–water LBM, granular MPM, and Gaussian grains
 enlivening_gs/        Muscle-driven FEM and Gaussian deformation
 magnetic_mpm/        Nonlinear magnetic fields coupled to MLS-MPM
-snowy_gs/             Elastoplastic snow, airborne flakes, and accumulation
-lava_gs/              Thermoviscoplastic lava, rock contact, and thermal emission
-water_sand/           Air–water LBM, granular MPM, and Gaussian grains
-plant_wilting/        Water transport, Newton rods, and Gaussian plant motion
-storm_gs/             Moist vortices, rain, sea spray, and transported dust
-thunder_gs/           Electric discharge, grounded terrain, and flash lighting
 surface_tension/      Capillary contact, stirring, surface currents, and Cycles rendering
 ice_melting/          Heat transport, phase change, rigid ice, and meltwater
 firex_gs/             Thermochemical fire, water suppression, and Gaussian carbonization
 implicit_mixture/     Implicit multi-fluid SPH, phase transport, and liquid surfaces
 ice_solidification/   Implicit heat transfer, growing ice, and liquid motion
 rhizomorph/           Coupled soil resources, root growth, and branching crowns
+windy_trees/          Two-way SPH wind, elastic branches, and air-particle paths
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```
@@ -378,6 +395,13 @@ media/                Demo videos, animated previews, and an HTML gallery
 We are grateful to our advisors, [Prof. Hujun Bao](https://person.zju.edu.cn/en/0093140), [Prof. Zhaopeng Cui](https://zhpcui.github.io/), [Dr. Siyuan Huang](https://siyuanhuang.com/), [Prof. Peter Yichen Chen](https://peterchencyc.com/), and [Prof. Ruizhen Hu](https://csse.szu.edu.cn/staff/ruizhenhu/), for their guidance and support.
 
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
+
+## License
+
+Original PhysStudio code is licensed under [Apache 2.0](LICENSE).
+Third-party components and their derived code retain their respective licenses;
+see [THIRD_PARTY.md](THIRD_PARTY.md). External assets and official showcase
+media retain their upstream terms; see [ASSETS.md](ASSETS.md) and the credits.
 
 ## Acknowledgements
 

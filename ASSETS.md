@@ -89,3 +89,9 @@ star mold, and studio procedurally. [Run guide](ice_solidification/README.md).
 
 Rhizomorph generates its trees, foliage, soil cutaways, and rocks procedurally;
 the three presets require no downloaded assets.
+
+Windy Trees generates its mature source trees with the packaged Rhizomorph
+presets, then records tree motion and SPH air trajectories. The inlet guide,
+soil island, and studio are procedural. No downloaded assets are required;
+completed Rhizomorph runs can be reused through `--source` in the
+[method harness](windy_trees/README.md).
