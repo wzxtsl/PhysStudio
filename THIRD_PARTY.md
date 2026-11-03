@@ -113,3 +113,10 @@ Rhizomorph and Ice Melting helpers. Rhizomorph's
 The [official video](https://www.youtube.com/watch?v=o6EKTlEV44E) provides the
 visual reference for neutral airflow filaments; the three showcase videos are
 rendered from PhysStudio simulations. [Sources](windy_trees/references/sources.json).
+
+Magnetic Rigid Bodies implements the equations in
+[Strongly Coupled Simulation of Magnetic Rigid Bodies](https://doi.org/10.1111/cgf.15185)
+independently in Python and NVIDIA Warp. This code is covered
+by PhysStudio's Apache 2.0 license; the authors' STARK code is neither included
+nor required. NumPy/SciPy supplies the host Newton solve, and Blender supplies
+Cycles rendering. All scene assets are procedural. [Paper and rendering sources](magnetic_rigid/references/sources.json).

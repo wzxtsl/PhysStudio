@@ -169,3 +169,17 @@ asset download or additional Python dependencies are needed. `--frames` shortens
 the wind trajectory at the normal time step, with at least two frames; the tree
 still completes 180 development steps. See [Windy Trees](windy_trees/README.md)
 for the three scenes, numerical checks, and frozen-state replay.
+
+Magnetic Rigid Bodies uses the shared Warp 1.6.2, NumPy/SciPy, and Pillow
+packages, Blender 4.2.9 with Cycles/OptiX, and FFmpeg:
+
+```bash
+export BLENDER=/path/to/blender
+python -m physstudio run magnetic_rigid compass_garden --gpu 0
+```
+
+All three scenes are procedural. `--frames` shortens the recording at the normal
+30 fps and 120 Hz base physics rate, with at least two saved states. The full
+body/sample resolution and camera/actuator timeline are retained. See
+[Magnetic Rigid Bodies](magnetic_rigid/README.md) for the crane, globe, numerical
+checks, and saved-state replay.

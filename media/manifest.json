@@ -762,5 +762,50 @@
     "nb_frames": "301",
     "duration": "10.034000",
     "size_bytes": 8867117
+  },
+  {
+    "method": "magnetic_rigid",
+    "scene": "compass_garden",
+    "label": "Field of Needles",
+    "paper": "https://doi.org/10.1111/cgf.15185",
+    "video": "media/magnetic_rigid/compass_garden.mp4",
+    "command": "python -m physstudio run magnetic_rigid compass_garden --gpu 0",
+    "sha256": "b2aa47eeb9adf217acd37c1278526bd6fd181a5ba64f3f33f137cd177bbcd044",
+    "size_bytes": 2827268,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "301",
+    "duration": "10.034000"
+  },
+  {
+    "method": "magnetic_rigid",
+    "scene": "magnetic_globe",
+    "label": "Magnetic Cabinet",
+    "paper": "https://doi.org/10.1111/cgf.15185",
+    "video": "media/magnetic_rigid/magnetic_globe.mp4",
+    "command": "python -m physstudio run magnetic_rigid magnetic_globe --gpu 0",
+    "sha256": "f7b6197bbc3350f8ef53464c5198047af247bfa2fe5ace853be4461281462ab9",
+    "size_bytes": 1343477,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "361",
+    "duration": "12.034000"
+  },
+  {
+    "method": "magnetic_rigid",
+    "scene": "magnetic_crane",
+    "label": "Electromagnetic Foundry",
+    "paper": "https://doi.org/10.1111/cgf.15185",
+    "video": "media/magnetic_rigid/magnetic_crane.mp4",
+    "command": "python -m physstudio run magnetic_rigid magnetic_crane --gpu 0",
+    "sha256": "b2aed88d944c5236936641df0d5aefd63c47b37fd1749de257d8cc9343c6450d",
+    "size_bytes": 1602052,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "361",
+    "duration": "12.034000"
   }
 ]

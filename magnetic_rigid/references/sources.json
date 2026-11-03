@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "title": "Strongly Coupled Simulation of Magnetic Rigid Bodies",
+    "authors": [
+      "Lukas Westhofen",
+      "José Antonio Fernández-Fernández",
+      "Stefan Rhys Jeske",
+      "Jan Bender"
+    ],
+    "doi": "10.1111/cgf.15185",
+    "year": 2024,
+    "publication": "Computer Graphics Forum 43(8)",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15185",
+    "author_page": "https://animation.rwth-aachen.de/publication/0590/",
+    "pdf_url": "https://animation.rwth-aachen.de/media/papers/90/2024-CGF-Magnetic_Rigid_Bodies.pdf",
+    "sha256": "8b4608b21c7eff1c899e397496a77c89efd1cc0d75110fb4f58f6f1117eabb68"
+  },
+  "official_video": {
+    "url": "https://www.youtube.com/watch?v=WZ0ZAQrpkXU",
+    "usage": "Research reference only; not included in our rendered demos",
+    "sha256": "eae3ba60767560951be661f3e9e2ffb6754d4b73806f964ac122c54d590e5ca1"
+  },
+  "implementation": {
+    "origin": "Independent Python and NVIDIA Warp implementation of paper equations",
+    "authors_code_used": false,
+    "stark_dependency": false
+  },
+  "assets": {
+    "origin": "Procedural geometry, materials and scene layout written locally",
+    "external_meshes": []
+  },
+  "rendering": {
+    "backend": "Blender 4.2.9 Cycles OptiX",
+    "representation": "Surface rendering of recorded rigid poses",
+    "gaussian_splatting": false
+  }
+}

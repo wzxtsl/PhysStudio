@@ -95,3 +95,8 @@ presets, then records tree motion and SPH air trajectories. The inlet guide,
 soil island, and studio are procedural. No downloaded assets are required;
 completed Rhizomorph runs can be reused through `--source` in the
 [method harness](windy_trees/README.md).
+
+Magnetic Rigid Bodies generates its compass needles, electromagnetic crane,
+beads, rigid triads, glass enclosure, and studio procedurally. No asset download
+is needed. The showcased videos render the recorded Warp states with Blender;
+paper PDFs and official reference videos are not bundled. [Run guide](magnetic_rigid/README.md).

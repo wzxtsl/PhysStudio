@@ -143,3 +143,16 @@ Nine frozen frames reproduce the development renders within one 8-bit channel
 level at 1280 x 720. The three 301-frame showcase MP4s match the accepted files,
 all GIF frames decode, and the wheel includes the modules, dense recording
 preset, run guide, method/flow notes, references and shared rendering helpers.
+
+Magnetic Rigid Bodies preserves six implementation/check modules byte for byte;
+its renderer differs only in the portable repository root. All three presets
+completed two-frame pipelines through the shared launcher at their full body
+and magnetic-sample resolutions, including physical audits, Cycles rendering,
+and verified MP4 encoding. Six numerical checks and all three complete
+showcase audits pass. Regenerated crane/globe prefixes match the accepted
+states exactly; compass quaternion and angular-velocity differences are below
+1.2e-13 and 3.8e-11 respectively. Nine frozen frames agree at 1280 x 720 within
+two 8-bit channel levels (mean below 0.018). The three showcase MP4s match the
+accepted originals, and all GIF frames decode. Existing 51 CLI plans, media
+records, and showcase order are preserved. See the
+[method validation](magnetic_rigid/VALIDATION.md) for measured results.

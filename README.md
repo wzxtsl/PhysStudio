@@ -13,7 +13,7 @@
 [DiffWind](#diffwind) · [Plant Wilting](#plant-wilting) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
 [Gaussian Splashing](#gaussian-splashing) · [Water + Sand](#water-sand) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
 [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid)<br>
-[Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph) · [Windy Trees](#windy-trees)
+[Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph) · [Windy Trees](#windy-trees) · [Magnetic Rigid Bodies](#magnetic-rigid-bodies)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -345,6 +345,21 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 ---
 
+<a id="magnetic-rigid-bodies"></a>
+## <img src="media/project-icons/magnetic-rigid-bodies.svg" width="32" height="32" align="absmiddle" alt=""> Magnetic Rigid Bodies
+
+[Strongly Coupled Simulation of Magnetic Rigid Bodies](https://doi.org/10.1111/cgf.15185) couples magnetic forces, induced magnetization, and rigid contact for compass alignment, electromagnetic transport, and magnetic assembly.
+
+<table><tr>
+  <td align="center" valign="top" width="33%"><a href="media/magnetic_rigid/compass_garden.mp4"><img src="media/magnetic_rigid/compass_garden.gif" width="360" alt="Field of Needles"></a><br><b>Field of Needles</b></td>
+  <td align="center" valign="top" width="33%"><a href="media/magnetic_rigid/magnetic_globe.mp4"><img src="media/magnetic_rigid/magnetic_globe.gif" width="360" alt="Magnetic Cabinet"></a><br><b>Magnetic Cabinet</b></td>
+  <td align="center" valign="top" width="33%"><a href="media/magnetic_rigid/magnetic_crane.mp4"><img src="media/magnetic_rigid/magnetic_crane.gif" width="360" alt="Electromagnetic Foundry"></a><br><b>Electromagnetic Foundry</b></td>
+</tr></table>
+
+[**Code & run guide →**](magnetic_rigid/README.md)
+
+---
+
 ## Run a demo
 
 See [installation](INSTALL.md) for the CUDA environment, then:
@@ -380,6 +395,7 @@ implicit_mixture/     Implicit multi-fluid SPH, phase transport, and liquid surf
 ice_solidification/   Implicit heat transfer, growing ice, and liquid motion
 rhizomorph/           Coupled soil resources, root growth, and branching crowns
 windy_trees/          Two-way SPH wind, elastic branches, and air-particle paths
+magnetic_rigid/       Coupled rigid contact, dipole fields, and induced magnetization
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```
