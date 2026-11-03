@@ -129,3 +129,16 @@ python -m physstudio run mixture tea --gpu 0
 See [Multi-fluid](implicit_mixture/README.md) for density inversion, colliding
 liquids, and replay. All three scenes are procedural. `--frames` sets both saved
 states and video frames, with at least two, at the preset 24 fps.
+
+Ice Solidification uses Warp 1.6.2 for heat and liquid motion, with Blender 4.2.9
+for rendering:
+
+```bash
+python -m pip install -r ice_solidification/requirements.txt
+export BLENDER=/path/to/blender
+python -m physstudio run freezing cascade --gpu 0
+```
+
+See [Ice Solidification](ice_solidification/README.md) for the cold-finger and
+star-casting scenes. All geometry is procedural. Short `--frames` runs retain
+the preset simulation interval; use at least two frames.

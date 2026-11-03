@@ -1,0 +1,10 @@
+{
+  "seconds": 3.5,
+  "frames": 241,
+  "cool_start": 0.1,
+  "cool_ramp": 1.4,
+  "contact_h": 1200.0,
+  "thermal_scale": 330.0,
+  "thermal_substeps": 4,
+  "phase_rendering": "continuous"
+}

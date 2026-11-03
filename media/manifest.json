@@ -633,5 +633,47 @@
     "r_frame_rate": "24/1",
     "nb_frames": "121",
     "duration": "5.042000"
+  },
+  {
+    "method": "ice_solidification",
+    "scene": "cold_finger",
+    "label": "Cryogenic bloom",
+    "paper": "https://doi.org/10.1016/j.jcp.2004.11.039",
+    "video": "media/ice_solidification/cold_finger.mp4",
+    "command": "python -m physstudio run freezing cold_finger --gpu 0",
+    "sha256": "41841f931c37025d800a20ab3dd43c6eac650a46ad44bf37f9fd707620655ade",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "181",
+    "duration": "6.034000"
+  },
+  {
+    "method": "ice_solidification",
+    "scene": "cascade",
+    "label": "Frozen cascade",
+    "paper": "https://doi.org/10.1016/j.jcp.2004.11.039",
+    "video": "media/ice_solidification/cascade.mp4",
+    "command": "python -m physstudio run freezing cascade --gpu 0",
+    "sha256": "4c6dec1ecd96ce8de1105d780c4f16b92c87ecc4134571c61c9bd1edf64c42d1",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "241",
+    "duration": "8.034000"
+  },
+  {
+    "method": "ice_solidification",
+    "scene": "ice_cast",
+    "label": "Frozen star",
+    "paper": "https://doi.org/10.1016/j.jcp.2004.11.039",
+    "video": "media/ice_solidification/ice_cast.mp4",
+    "command": "python -m physstudio run freezing ice_cast --gpu 0",
+    "sha256": "7159136abf9740c2a1df303645ef73b23552782c5cd885fcf6d162efc46dc9ca",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "241",
+    "duration": "8.034000"
   }
 ]

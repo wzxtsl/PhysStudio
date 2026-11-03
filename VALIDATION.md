@@ -107,3 +107,13 @@ rendering, and video decoding. Frozen tea and collision frames agree with the
 development renders within one 8-bit channel level at 1280 x 800. The three
 showcase MP4s match the approved files; every GIF frame decodes. The wheel
 includes all modules, the control preset, run guide, and paper references.
+
+Ice Solidification preserves twelve core modules after portable import and
+root-path normalization. All three presets completed two-frame pipelines at
+their full particle resolutions through the shared launcher, including heat
+and contact audits, surface reconstruction, Cycles rendering, and MP4 decoding.
+The packaged latent-heat, closed-exchange, isothermal, and Stefan-front checks
+pass. Six frozen-state frames reproduce the reviewed images within one 8-bit
+channel level at 1280 x 800. The three MP4s match the accepted originals;
+every GIF frame decodes. The wheel includes all modules, cooling presets,
+run guide, and paper references.

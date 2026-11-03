@@ -71,3 +71,9 @@ Simulations](https://doi.org/10.1145/3610548.3618215) in Warp. The authors'
 [Taichi implementation](https://github.com/sakamotoyan/TiSPH_multiphase) provides
 reference conventions for discrete viscosity and pressure iteration.
 Blender supplies Cycles rendering. [Pinned references](implicit_mixture/references/sources.json).
+
+Ice Solidification follows the enthalpy and SPH heat-transfer formulation of
+[Solidification using smoothed particle hydrodynamics](https://doi.org/10.1016/j.jcp.2004.11.039),
+with implicit heat exchange, position-based liquid motion, and continuous phase
+optics. The solver runs in Warp and Blender supplies Cycles rendering.
+[Paper references](ice_solidification/references/sources.json).

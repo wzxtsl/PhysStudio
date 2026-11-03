@@ -13,7 +13,7 @@
 [SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
 [LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting)<br>
 [StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact)<br>
-[Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid)
+[Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid) · [Ice Solidification](#ice-solidification)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -295,6 +295,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](implicit_mixture/README.md)
 
+<a id="ice-solidification"></a>
+
+## <img src="media/project-icons/ice-solidification.svg" width="32" height="32" align="absmiddle" alt=""> Ice Solidification
+
+[Solidification using smoothed particle hydrodynamics](https://doi.org/10.1016/j.jcp.2004.11.039) models heat transfer and latent heat for growing ice and coupled liquid motion.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/ice_solidification/ice_cast.mp4"><img src="media/ice_solidification/ice_cast.gif" width="360" alt="A continuous freezing front growing in a transparent star mold"></a><br><b>Frozen star</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/ice_solidification/cascade.mp4"><img src="media/ice_solidification/cascade.gif" width="360" alt="Water flowing down chilled steps and gradually freezing"></a><br><b>Frozen cascade</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/ice_solidification/cold_finger.mp4"><img src="media/ice_solidification/cold_finger.gif" width="360" alt="Ice growing around a cooled copper rod"></a><br><b>Cryogenic bloom</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](ice_solidification/README.md)
+
 ---
 
 ## Run a demo
@@ -329,6 +345,7 @@ surface_tension/      Capillary contact, stirring, surface currents, and Cycles 
 ice_melting/          Heat transport, phase change, rigid ice, and meltwater
 firex_gs/             Thermochemical fire, water suppression, and Gaussian carbonization
 implicit_mixture/     Implicit multi-fluid SPH, phase transport, and liquid surfaces
+ice_solidification/   Implicit heat transfer, growing ice, and liquid motion
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

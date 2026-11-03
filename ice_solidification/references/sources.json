@@ -1,0 +1,29 @@
+{
+  "papers": [
+    {
+      "title": "Solidification using smoothed particle hydrodynamics",
+      "authors": ["J. J. Monaghan", "H. E. Huppert", "M. G. Worster"],
+      "year": 2005,
+      "url": "https://doi.org/10.1016/j.jcp.2004.11.039",
+      "role": "SPH heat transfer and latent-heat solidification"
+    },
+    {
+      "title": "An Enthalpy-Based Unified Lattice Boltzmann Flux Solver for Liquid Solidification",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2507.03366",
+      "role": "Enthalpy and density-change formulation reference"
+    },
+    {
+      "title": "Solidification using Smoothed Particle Hydrodynamics",
+      "year": 2014,
+      "url": "https://dspace.library.uu.nl/handle/1874/296610",
+      "role": "Background thesis record"
+    }
+  ],
+  "runtime": {
+    "simulation": "https://github.com/NVIDIA/warp",
+    "rendering": "https://www.blender.org/",
+    "video": "https://ffmpeg.org/"
+  },
+  "assets": "All particles, fixtures, vessels, and studio geometry are generated procedurally."
+}

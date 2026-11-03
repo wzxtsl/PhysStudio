@@ -83,3 +83,6 @@ Mappings are stored in `data/firex_gs/fierygs/`, Bonsai in
 
 Multi-fluid generates its liquids, tea bag, glass stirrer, cup, and basins
 procedurally. Run the three presets directly; see [the guide](implicit_mixture/README.md).
+
+Ice Solidification generates its water particles, cold rod, stepped channel,
+star mold, and studio procedurally. [Run guide](ice_solidification/README.md).

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Ice Solidification physics icon</title>
+  <g stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 31c5-5 9 3 14 0s9-4 20 0v7c-7 5-27 5-34 0Z" fill="#599cbb20" stroke="#599cbb"/>
+    <path d="M8 37c6 4 25 4 32 0" stroke="#7ac1cf" stroke-width="1.5"/>
+    <path d="M24 5v24M13.6 11l20.8 12M13.6 23l20.8-12" stroke="#599cbb"/>
+    <path d="m20 7 4 4 4-4m-8 20 4-4 4 4M13.3 15.5l5.4-1.4-1.4-5.4m13.4 16.6-1.4-5.4 5.4-1.4M13.3 18.5l5.4 1.4-1.4 5.4m13.4-16.6-1.4 5.4 5.4 1.4" stroke="#7ac1cf" stroke-width="1.8"/>
+    <circle cx="24" cy="17" r="3.3" fill="#edfaff" stroke="#599cbb"/>
+  </g>
+</svg>
