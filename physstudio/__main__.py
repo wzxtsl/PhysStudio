@@ -25,6 +25,7 @@ SCENES = {
     "capillary": ("orchard", "capillary_cluster", "paperclips"),
     "ice": ("cubes", "arch", "bunny"),
     "firex": ("firewoods", "playground", "bonsai"),
+    "mixture": ("tea", "separation", "collision"),
 }
 
 
@@ -43,6 +44,11 @@ def command(module, **options):
 
 def plan(args):
     out = args.output
+    if args.method == "mixture":
+        cmd = command("implicit_mixture.harness", scene=args.scene, output=out,
+                      gpu=args.gpu, frames=args.frames, width=args.width)
+        cmd.insert(3, "all")
+        return [cmd]
     if args.method == "firex":
         return [command("firex_gs.harness", scene=args.scene, output=out,
                         gpu=args.gpu, frames=args.frames, width=args.width)]
@@ -292,7 +298,7 @@ def main():
         parser.error("Choose a scene from: " + ", ".join(SCENES[args.method]))
     if args.frames is not None and args.frames < 1:
         parser.error("--frames must be positive")
-    if args.method in ("ice", "firex") and args.frames is not None and args.frames < 2:
+    if args.method in ("ice", "firex", "mixture") and args.frames is not None and args.frames < 2:
         parser.error("This method requires at least two frames")
     if args.width is not None and (args.width < 32 or args.width % 2):
         parser.error("--width must be even and at least 32")

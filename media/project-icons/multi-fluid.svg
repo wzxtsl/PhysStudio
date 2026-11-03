@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Multi-fluid physics icon</title>
+  <g stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 15v22a5 5 0 0 0 5 5h20a5 5 0 0 0 5-5V15" stroke="#5797a6"/>
+    <path d="M9 27c5-8 10-8 15-3s10 6 15 0v13a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5Z" fill="#599cbb20" stroke="none"/>
+    <path d="M10 28c5-8 10-8 15-3s9 5 13 0" stroke="#5797a6"/>
+    <path d="M11 35c7 5 11-5 17-3s8 2 10-1" stroke="#cd7c55"/>
+    <path d="M25 5c-3 4-5 7-5 10a5 5 0 0 0 10 0c0-3-2-6-5-10Z" fill="#cd7c5520" stroke="#cd7c55"/>
+    <path d="M14 9c-2 3-3 4-3 6a3 3 0 0 0 6 0c0-2-1-3-3-6Z" fill="#5797a620" stroke="#5797a6" stroke-width="1.8"/>
+  </g>
+</svg>

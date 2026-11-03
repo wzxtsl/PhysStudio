@@ -11,8 +11,9 @@
 
 [RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
 [SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
-[LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting) · [StormGS](#stormgs)<br>
-[ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs)
+[LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting)<br>
+[StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact)<br>
+[Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -278,6 +279,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](firex_gs/README.md)
 
+<a id="multi-fluid"></a>
+
+## <img src="media/project-icons/multi-fluid.svg" width="32" height="32" align="absmiddle" alt=""> Multi-fluid
+
+[An Implicitly Stable Mixture Model for Dynamic Multi-fluid Simulations](https://doi.org/10.1145/3610548.3618215) couples phase motion, diffusion, and incompressibility for tea brewing, density inversion, and colliding liquids.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/implicit_mixture/tea_brewing.mp4"><img src="media/implicit_mixture/tea_brewing.gif" width="360" alt="Tea brewing multi-fluid demo"></a><br><b>Tea brewing</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/implicit_mixture/density_inversion.mp4"><img src="media/implicit_mixture/density_inversion.gif" width="360" alt="Density inversion multi-fluid demo"></a><br><b>Density inversion</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/implicit_mixture/chromatic_collision.mp4"><img src="media/implicit_mixture/chromatic_collision.gif" width="360" alt="Chromatic collision multi-fluid demo"></a><br><b>Chromatic collision</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](implicit_mixture/README.md)
+
 ---
 
 ## Run a demo
@@ -311,6 +328,7 @@ thunder_gs/           Electric discharge, grounded terrain, and flash lighting
 surface_tension/      Capillary contact, stirring, surface currents, and Cycles rendering
 ice_melting/          Heat transport, phase change, rigid ice, and meltwater
 firex_gs/             Thermochemical fire, water suppression, and Gaussian carbonization
+implicit_mixture/     Implicit multi-fluid SPH, phase transport, and liquid surfaces
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

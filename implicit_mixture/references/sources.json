@@ -1,0 +1,24 @@
+{
+  "paper": {
+    "title": "An Implicitly Stable Mixture Model for Dynamic Multi-fluid Simulations",
+    "venue": "SIGGRAPH Asia 2023",
+    "doi": "https://doi.org/10.1145/3610548.3618215",
+    "manuscript": "https://eprints.bournemouth.ac.uk/40107/1/Wb4Nx-papers_671s4-file1.s.pdf"
+  },
+  "reference_implementation": {
+    "url": "https://github.com/sakamotoyan/TiSPH_multiphase",
+    "revision": "c472c1a8e4e6233aae5864dfa914f258bdb6cdf0",
+    "use": "Reference for discrete viscosity and pressure iteration conventions"
+  },
+  "geometry": "Procedural cup, tea bag, stirrer, basins, and fluid particles",
+  "solver": {
+    "library": "NVIDIA Warp",
+    "version": "1.6.2",
+    "url": "https://github.com/NVIDIA/warp"
+  },
+  "renderer": {
+    "library": "Blender Cycles",
+    "version": "4.2.9",
+    "url": "https://download.blender.org/release/Blender4.2/"
+  }
+}

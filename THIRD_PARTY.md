@@ -64,3 +64,10 @@ The CIE matching table is included with FieryGS's
 [Apache-2.0 license](firex_gs/LICENSE.reference); the SH reference evaluator
 retains its PlenOctree Authors BSD notice. The Warp solver and water coupling
 are implemented here. [Pinned sources and asset links](firex_gs/references/sources.json).
+
+Multi-fluid implements the phase-velocity mapping and conservative composition
+transport from [An Implicitly Stable Mixture Model for Dynamic Multi-fluid
+Simulations](https://doi.org/10.1145/3610548.3618215) in Warp. The authors'
+[Taichi implementation](https://github.com/sakamotoyan/TiSPH_multiphase) provides
+reference conventions for discrete viscosity and pressure iteration.
+Blender supplies Cycles rendering. [Pinned references](implicit_mixture/references/sources.json).

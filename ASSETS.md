@@ -80,3 +80,6 @@ python -m firex_gs.fetch --scene all
 Mappings are stored in `data/firex_gs/fierygs/`, Bonsai in
 `data/firex_gs/graphdeco/bonsai/`, and generated material masks in
 `data/firex_gs/prepared/`. [Scene preparation and run guide](firex_gs/README.md).
+
+Multi-fluid generates its liquids, tea bag, glass stirrer, cup, and basins
+procedurally. Run the three presets directly; see [the guide](implicit_mixture/README.md).

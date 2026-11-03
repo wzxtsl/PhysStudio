@@ -98,3 +98,12 @@ pixel at 1280 x 800. The released videos match the accepted 420-frame Firewoods
 and 450-frame Playground and Bonsai originals; every GIF frame decodes. The
 wheel includes the modules, scene calibrations, run guide, CIE table, and
 reference attribution.
+
+Multi-fluid preserves the validated solver, scene, transport, surface, and
+rendering implementation after portable imports and preset selection. All three
+presets completed two-frame pipelines at their full particle resolution through
+the shared launcher, including numerical checks, simulation audits, Cycles
+rendering, and video decoding. Frozen tea and collision frames agree with the
+development renders within one 8-bit channel level at 1280 x 800. The three
+showcase MP4s match the approved files; every GIF frame decodes. The wheel
+includes all modules, the control preset, run guide, and paper references.

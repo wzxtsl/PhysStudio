@@ -1,0 +1,6 @@
+{
+  "drag": 0.97,
+  "viscosity": 0.002,
+  "diffusion": 0.006,
+  "stirring": false
+}

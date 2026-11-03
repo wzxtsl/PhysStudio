@@ -117,3 +117,15 @@ python -m physstudio run firex firewoods --gpu 0
 
 See [Fire-X GS](firex_gs/README.md) for Playground, Bonsai, frozen replay, and
 matched no-water controls. Use `--frames 2 --width 320` for a short pipeline check.
+
+Multi-fluid uses Warp 1.6.2 for simulation and Blender 4.2.9 for rendering:
+
+```bash
+python -m pip install -r implicit_mixture/requirements.txt
+export BLENDER=/path/to/blender
+python -m physstudio run mixture tea --gpu 0
+```
+
+See [Multi-fluid](implicit_mixture/README.md) for density inversion, colliding
+liquids, and replay. All three scenes are procedural. `--frames` sets both saved
+states and video frames, with at least two, at the preset 24 fps.

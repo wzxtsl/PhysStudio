@@ -591,5 +591,47 @@
     "r_frame_rate": "30/1",
     "duration": "15.000000",
     "nb_frames": "450"
+  },
+  {
+    "method": "implicit_mixture",
+    "scene": "tea",
+    "label": "Tea brewing",
+    "paper": "https://doi.org/10.1145/3610548.3618215",
+    "video": "media/implicit_mixture/tea_brewing.mp4",
+    "command": "python -m physstudio run mixture tea --gpu 0",
+    "sha256": "e4563db11aa917fa53ed7ac952a5c084c362f563598610a1d547ff049a20f336",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "24/1",
+    "nb_frames": "241",
+    "duration": "10.042000"
+  },
+  {
+    "method": "implicit_mixture",
+    "scene": "separation",
+    "label": "Density inversion",
+    "paper": "https://doi.org/10.1145/3610548.3618215",
+    "video": "media/implicit_mixture/density_inversion.mp4",
+    "command": "python -m physstudio run mixture separation --gpu 0",
+    "sha256": "55e2f755e98ec718c2ebe7de2432ce33cdcd5b4521103e844073d33908578066",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "24/1",
+    "nb_frames": "121",
+    "duration": "5.042000"
+  },
+  {
+    "method": "implicit_mixture",
+    "scene": "collision",
+    "label": "Chromatic collision",
+    "paper": "https://doi.org/10.1145/3610548.3618215",
+    "video": "media/implicit_mixture/chromatic_collision.mp4",
+    "command": "python -m physstudio run mixture collision --gpu 0",
+    "sha256": "51a99cba8ce343704aeffdff325c09bc5684cbee611777af061d60883909b878",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "24/1",
+    "nb_frames": "121",
+    "duration": "5.042000"
   }
 ]
