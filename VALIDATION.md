@@ -18,13 +18,15 @@ listed in [INSTALL.md](INSTALL.md).
 | Capillary Contact | Energy/contact derivatives, surface-current operators, solid gaps, volume; all three simulation/render pipelines |
 | Ice Melting | Heat and latent energy, rigid ice, liquid density, wetting kernels; all three simulation/render pipelines |
 | Fire suppression | Reaction and water-energy balance, gas/solid boundaries, wood conduction, carbonization; all three pipelines and frozen-state rendering |
-| Launcher | All 39 presets; existing 36 command plans unchanged |
+| Rhizomorph | All three growth/render pipelines; soil conservation, nutrient tropism, root/rock clearance, allocation, and frozen-state rendering |
+| Launcher | All 48 presets; existing 45 command plans unchanged |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 40 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Media | All 49 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
 | Package | Wheel includes all method modules, reference attribution, and Plant Wilting, Ice Melting, and Fire-X GS runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
-Each end-to-end pipeline check used two simulation/video steps. The Playground
+End-to-end checks render two video frames; Rhizomorph runs its complete 180-step
+development trajectory. The Playground
 rain showcase was also regenerated for its full 240 frames from the release
 preset. The other showcase videos are the completed runs collected from the
 original experiments. Sixteen core physics and rendering modules retain the
@@ -117,3 +119,13 @@ pass. Six frozen-state frames reproduce the reviewed images within one 8-bit
 channel level at 1280 x 800. The three MP4s match the accepted originals;
 every GIF frame decodes. The wheel includes all modules, cooling presets,
 run guide, and paper references.
+
+Rhizomorph preserves the development solver, presets, and checks after formatting.
+All three presets completed 180 growth steps through the shared launcher,
+including resource/trajectory audits, two-frame Cycles renders, and video decoding.
+Transport checks pass for equilibrium, water/nutrient conservation, sealed cells,
+and nonnegativity; all 256 paired root tips respond to the reversed nutrient
+field. Three frozen frames reproduce the development images within one 8-bit
+channel level at 960 x 1080. The released MP4s match the accepted 240-frame
+originals, every GIF frame decodes, and the wheel includes the modules, run guide,
+method notes, reference metadata, and attribution.

@@ -142,3 +142,16 @@ python -m physstudio run freezing cascade --gpu 0
 See [Ice Solidification](ice_solidification/README.md) for the cold-finger and
 star-casting scenes. All geometry is procedural. Short `--frames` runs retain
 the preset simulation interval; use at least two frames.
+
+Tree & Root Growth uses Warp 1.6.2 for coupled root/shoot development and Blender 4.2.9
+for rendering:
+
+```bash
+export BLENDER=/path/to/blender
+python -m physstudio run rhizomorph oak_taproot --gpu 0
+```
+
+See [Tree & Root Growth](rhizomorph/README.md) for Maple, Birch, resource controls, and
+replay. All geometry is procedural. `--frames` controls video sampling over the
+full development trajectory; the method harness exposes `--steps` for shorter
+simulations.

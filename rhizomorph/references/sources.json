@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/edisonlee0212/rhizomorph",
+  "commit": "a4d2835c8527b9f92895e1cca4a9f30211e97a40",
+  "files": [
+    "LICENSE",
+    "Source Code/EcoSysLab/include/EcoSysLab/TreeModel/TreeGrowthController.hpp",
+    "Source Code/EcoSysLab/include/EcoSysLab/TreeModel/TreeGrowthData.hpp",
+    "Source Code/EcoSysLab/include/EcoSysLab/TreeModel/VigorSink.hpp",
+    "Source Code/EcoSysLab/src/EcoSysLab/SoilModel.cpp",
+    "Source Code/EcoSysLab/src/EcoSysLab/TreeModel.cpp"
+  ],
+  "paper": {
+    "title": "Rhizomorph: The Coordinated Function of Shoots and Roots",
+    "project": "https://storage.googleapis.com/pirk.io/projects/rhizomorph/index.html",
+    "doi": "https://doi.org/10.1145/3592145",
+    "year": 2023
+  },
+  "role": "Reference equations and growth logic; Warp kernels and Python topology are implemented here."
+}

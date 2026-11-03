@@ -12,8 +12,8 @@
 [RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
 [SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
 [LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting)<br>
-[StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact)<br>
-[Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid) · [Ice Solidification](#ice-solidification)
+[StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting)<br>
+[Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid) · [Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -311,6 +311,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](ice_solidification/README.md)
 
+<a id="rhizomorph"></a>
+
+## <img src="media/project-icons/rhizomorph.svg" width="32" height="32" align="absmiddle" alt=""> Tree & Root Growth
+
+[Rhizomorph: The Coordinated Function of Shoots and Roots](https://storage.googleapis.com/pirk.io/projects/rhizomorph/index.html) couples soil resources and plant signals to grow branching roots and leafy crowns together.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/rhizomorph/oak_taproot.mp4"><img src="media/rhizomorph/oak_taproot.gif" width="360" alt="Oak crown and roots growing in a soil cutaway"></a><br><b>Oak</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/rhizomorph/maple_heart.mp4"><img src="media/rhizomorph/maple_heart.gif" width="360" alt="Maple crown and roots growing in a soil cutaway"></a><br><b>Maple</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/rhizomorph/birch_lateral.mp4"><img src="media/rhizomorph/birch_lateral.gif" width="360" alt="Birch crown and roots growing in a soil cutaway"></a><br><b>Birch</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](rhizomorph/README.md)
+
 ---
 
 ## Run a demo
@@ -346,6 +362,7 @@ ice_melting/          Heat transport, phase change, rigid ice, and meltwater
 firex_gs/             Thermochemical fire, water suppression, and Gaussian carbonization
 implicit_mixture/     Implicit multi-fluid SPH, phase transport, and liquid surfaces
 ice_solidification/   Implicit heat transfer, growing ice, and liquid motion
+rhizomorph/           Coupled soil resources, root growth, and branching crowns
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

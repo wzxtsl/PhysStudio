@@ -86,3 +86,6 @@ procedurally. Run the three presets directly; see [the guide](implicit_mixture/R
 
 Ice Solidification generates its water particles, cold rod, stepped channel,
 star mold, and studio procedurally. [Run guide](ice_solidification/README.md).
+
+Rhizomorph generates its trees, foliage, soil cutaways, and rocks procedurally;
+the three presets require no downloaded assets.

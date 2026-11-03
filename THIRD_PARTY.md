@@ -77,3 +77,11 @@ Ice Solidification follows the enthalpy and SPH heat-transfer formulation of
 with implicit heat exchange, position-based liquid motion, and continuous phase
 optics. The solver runs in Warp and Blender supplies Cycles rendering.
 [Paper references](ice_solidification/references/sources.json).
+
+Rhizomorph follows the soil-resource coupling and plant-signal architecture of
+[Rhizomorph: The Coordinated Function of Shoots and Roots](https://doi.org/10.1145/3592145).
+The authors' [official implementation](https://github.com/edisonlee0212/rhizomorph)
+provides reference growth and soil-transport logic. The Warp kernels and Python
+graph implementation are developed here; Blender supplies Cycles rendering.
+[Pinned reference](rhizomorph/references/sources.json) ·
+[Reference BSD-3-Clause license](rhizomorph/LICENSE.reference).

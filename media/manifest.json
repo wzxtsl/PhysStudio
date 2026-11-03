@@ -675,5 +675,47 @@
     "r_frame_rate": "30/1",
     "nb_frames": "241",
     "duration": "8.034000"
+  },
+  {
+    "method": "rhizomorph",
+    "scene": "oak_taproot",
+    "label": "Oak",
+    "paper": "https://storage.googleapis.com/pirk.io/projects/rhizomorph/index.html",
+    "video": "media/rhizomorph/oak_taproot.mp4",
+    "command": "python -m physstudio run rhizomorph oak_taproot --gpu 0",
+    "width": 960,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "8.000000",
+    "nb_frames": "240",
+    "sha256": "4c59905e532ec839a7183ffb05b000ddc1566a07906e7c9852a1010d3da60185"
+  },
+  {
+    "method": "rhizomorph",
+    "scene": "maple_heart",
+    "label": "Maple",
+    "paper": "https://storage.googleapis.com/pirk.io/projects/rhizomorph/index.html",
+    "video": "media/rhizomorph/maple_heart.mp4",
+    "command": "python -m physstudio run rhizomorph maple_heart --gpu 0",
+    "width": 960,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "8.000000",
+    "nb_frames": "240",
+    "sha256": "4eb5d45b6ad283008052c890bc1ba89fcf6f36d9f6b0fd0a61f538cfc4261a07"
+  },
+  {
+    "method": "rhizomorph",
+    "scene": "birch_lateral",
+    "label": "Birch",
+    "paper": "https://storage.googleapis.com/pirk.io/projects/rhizomorph/index.html",
+    "video": "media/rhizomorph/birch_lateral.mp4",
+    "command": "python -m physstudio run rhizomorph birch_lateral --gpu 0",
+    "width": 960,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "8.000000",
+    "nb_frames": "240",
+    "sha256": "db51dbd2a6e7357f9b491f24d1f92dffe4801b40328adef9130163747fc9b169"
   }
 ]
