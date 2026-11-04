@@ -120,3 +120,12 @@ independently in Python and NVIDIA Warp. This code is covered
 by PhysStudio's Apache 2.0 license; the authors' STARK code is neither included
 nor required. NumPy/SciPy supplies the host Newton solve, and Blender supplies
 Cycles rendering. All scene assets are procedural. [Paper and rendering sources](magnetic_rigid/references/sources.json).
+
+Thin-Film Bubbles follows [A Moving Eulerian-Lagrangian Particle Method for
+Thin Film and Foam Simulation](https://doi.org/10.1145/3528223.3530174) by
+Yitong Deng, Mengdi Wang, Xiangxin Kong, Shiying Xiong, Zangyueyang Xian and
+Bo Zhu. The Python/Warp solver is independently implemented and covered by
+PhysStudio's Apache 2.0 license. The [authors' C++ implementation](https://github.com/wang-mengdi/melp-thin-film)
+was consulted for algorithm research; its code is neither bundled nor required.
+Blender supplies Cycles rendering, and all scene assets are procedural.
+[Paper, pinned reference and rendering metadata](melp_thin_film/references/sources.json).

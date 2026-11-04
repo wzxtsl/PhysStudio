@@ -20,9 +20,11 @@ listed in [INSTALL.md](INSTALL.md).
 | Fire suppression | Reaction and water-energy balance, gas/solid boundaries, wood conduction, carbonization; all three pipelines and frozen-state rendering |
 | Rhizomorph | All three growth/render pipelines; soil conservation, nutrient tropism, root/rock clearance, allocation, and frozen-state rendering |
 | Windy Trees | All three growth/wind/render pipelines; implicit mechanics, damping, air feedback, dense paths, and frozen-state rendering |
-| Launcher | All 51 presets; existing 48 command plans unchanged |
+| Magnetic Rigid Bodies | Three public pipelines, magnetic/contact checks, full audits and frozen-state rendering |
+| Thin-Film Bubbles | Three public pipelines, conservative transfers, implicit operators, continuous contact, full audits and frozen-state rendering |
+| Launcher | All 57 presets; existing 54 command plans unchanged by the thin-film addition |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 52 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Media | All 58 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
 | Package | Wheel includes all method modules, reference attribution, and Plant Wilting, Ice Melting, and Fire-X GS runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
@@ -156,3 +158,17 @@ two 8-bit channel levels (mean below 0.018). The three showcase MP4s match the
 accepted originals, and all GIF frames decode. Existing 51 CLI plans, media
 records, and showcase order are preserved. See the
 [method validation](magnetic_rigid/VALIDATION.md) for measured results.
+
+Thin-Film Bubbles preserves eleven implementation/check modules byte for byte.
+All three presets completed three-frame public-CLI pipelines at full particle
+resolution, including recording and mesh audits, Cycles renders and verified
+encoding. Analytic geometry, conservative scatter, compatible pressure/CG,
+force balance and continuous/unilateral contact checks pass, as do all three
+complete recording audits. State-prefix differences are below 4.1e-13 m and
+1.2e-10 m/s; nine frozen 1280 x 720 renders differ by at most one 8-bit channel
+level (mean below 0.000054). Resume preserves PNGs and rejects changed settings.
+The accepted MP4s are unchanged, all GIF frames decode, and the wheel includes
+the solver, reconstruction, renderer, harness, checks, guides and references.
+Existing 54 command plans, 55 media records and 21 showcase sections are
+preserved. See [method validation](melp_thin_film/VALIDATION.md) for measurements
+and the intact-film collision scope.

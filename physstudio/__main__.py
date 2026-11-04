@@ -30,6 +30,7 @@ SCENES = {
     "rhizomorph": ("oak_taproot", "maple_heart", "birch_lateral"),
     "windy_trees": ("oak_taproot", "maple_heart", "birch_lateral"),
     "magnetic_rigid": ("compass_garden", "magnetic_crane", "magnetic_globe"),
+    "thin_film": ("giant_recoil", "driven_bubble", "bubble_collision"),
 }
 
 
@@ -48,6 +49,9 @@ def command(module, **options):
 
 def plan(args):
     out = args.output
+    if args.method == "thin_film":
+        return [command("melp_thin_film.harness", scene=args.scene, output=out,
+                        gpu=args.gpu, frames=args.frames, width=args.width)]
     if args.method == "magnetic_rigid":
         return [command("magnetic_rigid.harness", scene=args.scene, output=out,
                         gpu=args.gpu, frames=args.frames, width=args.width)]
@@ -314,7 +318,7 @@ def main():
         parser.error("Choose a scene from: " + ", ".join(SCENES[args.method]))
     if args.frames is not None and args.frames < 1:
         parser.error("--frames must be positive")
-    if args.method in ("ice", "firex", "mixture", "freezing", "rhizomorph", "windy_trees", "magnetic_rigid") and args.frames is not None and args.frames < 2:
+    if args.method in ("ice", "firex", "mixture", "freezing", "rhizomorph", "windy_trees", "magnetic_rigid", "thin_film") and args.frames is not None and args.frames < 2:
         parser.error("This method requires at least two frames")
     if args.width is not None and (args.width < 32 or args.width % 2):
         parser.error("--width must be even and at least 32")

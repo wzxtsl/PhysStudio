@@ -100,3 +100,9 @@ Magnetic Rigid Bodies generates its compass needles, electromagnetic crane,
 beads, rigid triads, glass enclosure, and studio procedurally. No asset download
 is needed. The showcased videos render the recorded Warp states with Blender;
 paper PDFs and official reference videos are not bundled. [Run guide](magnetic_rigid/README.md).
+
+Thin-Film Bubbles generates its geometric/material particles, studio apparatus,
+lighting and optical materials procedurally. No asset download is required.
+The three showcase videos render recorded Warp simulations with Blender Cycles;
+the authors' source, paper PDF and reference videos are not bundled.
+[Run guide](melp_thin_film/README.md) · [Sources](melp_thin_film/references/sources.json).

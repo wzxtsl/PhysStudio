@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "title": "A Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation",
+    "doi": "10.1145/3528223.3530174",
+    "url": "https://www.cs.dartmouth.edu/~bozhu/papers/melp.pdf",
+    "sha256": "70c5f26cce2874bd13a9bdcc9a1e6699acfddc7c8d47f93db7b1abd150a04f44"
+  },
+  "code_reference": {
+    "url": "https://github.com/wang-mengdi/melp-thin-film",
+    "commit": "00c16c238b3b69c98e952b7c9119033dd07bb267",
+    "usage": "Algorithm research only; independent Python/Warp implementation, no C++ runtime or copied source",
+    "license_file_present": false
+  },
+  "project": "https://yitongdeng.github.io/MELP_Project.github.io/",
+  "official_video": "https://www.youtube.com/watch?v=xW-G7hm6SWQ",
+  "implementation": {
+    "origin": "Independent Python and NVIDIA Warp implementation",
+    "authors_code_used": false,
+    "license": "Apache-2.0"
+  },
+  "assets": {
+    "origin": "Procedural particle surfaces, studio geometry, lighting and materials",
+    "external_assets": []
+  },
+  "rendering": {
+    "backend": "Blender 4.2.9 Cycles OptiX",
+    "representation": "Quadratic MLS meshes reconstructed from saved 3D particle states",
+    "gaussian_splatting": false
+  }
+}

@@ -13,7 +13,8 @@
 [DiffWind](#diffwind) · [Plant Wilting](#plant-wilting) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
 [Gaussian Splashing](#gaussian-splashing) · [Water + Sand](#water-sand) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
 [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs) · [Multi-fluid](#multi-fluid)<br>
-[Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph) · [Windy Trees](#windy-trees) · [Magnetic Rigid Bodies](#magnetic-rigid-bodies)
+[Ice Solidification](#ice-solidification) · [Tree & Root Growth](#rhizomorph) · [Windy Trees](#windy-trees)<br>
+[Magnetic Rigid Bodies](#magnetic-rigid-bodies) · [Thin-Film Bubbles](#thin-film-bubbles)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -360,6 +361,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 ---
 
+<a id="thin-film-bubbles"></a>
+
+## <img src="media/project-icons/thin-film-bubbles.svg" width="32" height="32" align="absmiddle" alt=""> Thin-Film Bubbles
+
+[A Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation](https://yitongdeng.github.io/MELP_Project.github.io/) separates surface geometry from material flow to animate capillary recoil, pressure-driven deformation, and bubble collisions with thin-film iridescence.
+
+<table><tr>
+  <td align="center" valign="top" width="33%"><a href="media/melp_thin_film/giant_recoil.mp4"><img src="media/melp_thin_film/giant_recoil.gif" width="360" alt="Giant Bubble Recoil"></a><br><b>Giant Bubble Recoil</b></td>
+  <td align="center" valign="top" width="33%"><a href="media/melp_thin_film/driven_bubble.mp4"><img src="media/melp_thin_film/driven_bubble.gif" width="360" alt="Breathing Bubble"></a><br><b>Breathing Bubble</b></td>
+  <td align="center" valign="top" width="33%"><a href="media/melp_thin_film/bubble_collision.mp4"><img src="media/melp_thin_film/bubble_collision.gif" width="360" alt="Bubble Collision"></a><br><b>Bubble Collision</b></td>
+</tr></table>
+
+[**Code & run guide →**](melp_thin_film/README.md)
+
+---
+
 ## Run a demo
 
 See [installation](INSTALL.md) for the CUDA environment, then:
@@ -396,6 +413,7 @@ ice_solidification/   Implicit heat transfer, growing ice, and liquid motion
 rhizomorph/           Coupled soil resources, root growth, and branching crowns
 windy_trees/          Two-way SPH wind, elastic branches, and air-particle paths
 magnetic_rigid/       Coupled rigid contact, dipole fields, and induced magnetization
+melp_thin_film/       Moving thin films, capillary recoil, and bubble contact
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

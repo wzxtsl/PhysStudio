@@ -807,5 +807,50 @@
     "r_frame_rate": "30/1",
     "nb_frames": "361",
     "duration": "12.034000"
+  },
+  {
+    "method": "melp_thin_film",
+    "scene": "giant_recoil",
+    "label": "Giant Bubble Recoil",
+    "paper": "https://doi.org/10.1145/3528223.3530174",
+    "video": "media/melp_thin_film/giant_recoil.mp4",
+    "command": "python -m physstudio run thin_film giant_recoil --gpu 0",
+    "sha256": "38f675b0c0ed5748fe0f12214f95d2b23b9c16ac002ee47599703f6d9b572f10",
+    "size_bytes": 1045736,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "241",
+    "duration": "8.034000"
+  },
+  {
+    "method": "melp_thin_film",
+    "scene": "driven_bubble",
+    "label": "Breathing Bubble",
+    "paper": "https://doi.org/10.1145/3528223.3530174",
+    "video": "media/melp_thin_film/driven_bubble.mp4",
+    "command": "python -m physstudio run thin_film driven_bubble --gpu 0",
+    "sha256": "dedf3749f63bc10ad326ef2fe28c425856045cff1c7d7062de1a24599c980944",
+    "size_bytes": 1270279,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "241",
+    "duration": "8.034000"
+  },
+  {
+    "method": "melp_thin_film",
+    "scene": "bubble_collision",
+    "label": "Bubble Collision",
+    "paper": "https://doi.org/10.1145/3528223.3530174",
+    "video": "media/melp_thin_film/bubble_collision.mp4",
+    "command": "python -m physstudio run thin_film bubble_collision --gpu 0",
+    "sha256": "f348543199ed9608ddf38560fecf0f8c2a62203fe3d4dfe8802b77f329ff5f2d",
+    "size_bytes": 1172244,
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "30/1",
+    "nb_frames": "241",
+    "duration": "8.034000"
   }
 ]

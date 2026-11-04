@@ -183,3 +183,16 @@ All three scenes are procedural. `--frames` shortens the recording at the normal
 body/sample resolution and camera/actuator timeline are retained. See
 [Magnetic Rigid Bodies](magnetic_rigid/README.md) for the crane, globe, numerical
 checks, and saved-state replay.
+
+Thin-Film Bubbles uses the shared Warp, NumPy/SciPy, trimesh and Pillow packages,
+Blender 4.2.9 with Cycles/OptiX, and FFmpeg:
+
+```bash
+export BLENDER=/path/to/blender
+python -m physstudio run thin_film giant_recoil --gpu 0
+```
+
+The three presets are procedural. `--frames` records a shorter prefix at full
+particle resolution and unchanged physics/camera timing, with at least two
+saved states. The pipeline includes MLS surface reconstruction, mesh checks,
+and 30 fps encoding. [Run guide and replay](melp_thin_film/README.md).
